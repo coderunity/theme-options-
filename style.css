@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+* ul li, a{
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: #e9e9e9;
+}
+html{
+    font-family: 'Poppins', sans-serif;
+}
+.text-center{
+    text-align: center;
+    padding: 20px 0px;
+    color: rgb(251, 16, 47);
+    font-size: 30px;
+    
+}
+
+/* Theme options elements */
+
+.theme_option{
+    display: flex;
+    padding: 50px 0px;
+
+}
+
+.theme_manu{
+    width: 20%;
+    height: auto;
+    padding-left:50px;
+    margin-right: 20px;
+    
+}
+
+.theme_manu ul{
+    background-color: #23282d;
+    display: block;
+    padding: 5px 15px;
+    border-radius: 3px;
+    
+}
+
+.theme_body{
+    width: 80%;
+    height: auto;
+}
+.theme_manu ul li a{
+    display: block;
+    padding: 4px 0px;
+    color: #ccc;
+}
+.theme_manu ul li a.active{
+    text-decoration: underline;
+    color: rgb(41, 179, 16);
+  
+}
+
+/* theme_body elements */
+
+.theme_body .theme_contant{
+    display: none;
+}
+.theme_body .theme_contant.active{
+    display: block;
+}
+
+.theme_body .theme_contant img{
+    width: 100%;
+    height: auto;
+}
+
+.theme_body .theme_contant p{
+    font-weight: 500;
+}
+
+/* dropdown menus */
+
+.theme_manu ul li .click_extra{
+    
+}
+
+.theme_manu ul li .click_extra.active{
+    background-color: #17212c;
+}
+
+
+.theme_option .theme_manu ul li .manu{
+   margin-left: -14px;
+   height: 0;
+   overflow: hidden;
+       
+}
+
+
+
+
+
+
